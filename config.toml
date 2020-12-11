@@ -1,3 +1,166 @@
+# Page settings
+
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "en"
+title = "CV of Can Sürmeli"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+    primaryColor = "#86BBD8"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Can Sürmeli"
+        tagline = "Computer Engineer"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Passau, Germany"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:017632429512"
+        text = "0176 / 324 29 512"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:cansurmeli@outlook.com"
+        text = "cansurmeli@outlook.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.cansurmeli.com"
+        text = "www.cansurmeli.com"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Swift/iOS + macOS Frameworks"
+        [[params.skills.list.items]]
+        details = "HTML/CSS"
+        [[params.skills.list.items]]
+        details = "Git, GitHub, GitLab"
+        [[params.skills.list.items]]
+        details = "CI/CD"
+        [[params.skills.list.items]]
+        details = "Docker"
+        [[params.skills.list.items]]
+        details = "C, Bash Scripting, *nix Systems"
+        [[params.skills.list.items]]
+        details = "SQL, noSQL"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player + leader"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        university = "University of Passau"
+        dates = "2018 - "
+        [[params.education.list]]
+        degree = "BSc in Computer Science"
+        university = "Yeditepe University"
+        dates = "2009 - 2016"
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Ideation Days"
+        body = "University of Passau"
+        date = "December 2020"
+        [[params.awards.list]]
+        name = "Transferable Skills for Working in an IT Environment"
+        body = "Accenture GmbH"
+        date = "July 2019"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Turkish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Multi-lingual"
+        [[params.languages.list]]
+        name = "German"
+        level = "B1/B2"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Fitness"
+        [[params.interests.list]]
+        name = "Judo"
+        [[params.interests.list]]
+        name = "Photography"
+
+    [params.summary]
+        enable = true
+				text = "Hi, I'm Can. I'm a computer engineer who is at the end of his master's degree again in the same major. My studies taught me a wide variety of subjects from data structures, algorithms, security, audio/image processing to networks, operating systems, hardware skills and more. During that that, I've worked with languages such as C, Java, Python, bash scripting. Although these days, my main area of concern is Swift and Apple's ecosystem along with *nix administration and Docker. As a developer, I also deeply care about great UI/UX experiences. I'm a highly disciplined person who does not get comfortable with what he accomplishes, learns on his feet, and looks out for different ways to mould what he's already doing to better master it."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Internship | TAV Information Technologies"
+        dates = "August 15- September 15"
+        company = "TAV Airports"
+				details = "I've interned at TAV IT's mobile development team for a month. I worked on their newly developing iOS application."
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+				title = "DUCO - Hybrid Indoor Navigation"
+        meta = "Research Paper"
+				tagline = "This is my bachelor's thesis presented as a research paper at MobiWis 2016 held in Vienna, Austria and published in `Lecture Notes in Computer Science` of Springer. I developed a hybrid solution for the problem of indoor navigation for iOS; mostly relying on pedestrian dead-reckoning(PDR) and some wireless technologies in the aid."
+
+    [params.information]
+        enable = false 
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/cansurmeli"
+        title = "cansurmeli"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/can-surmeli-0659581b9/"
+        title = "Can Sürmeli"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/cansurmeli"
+        title = "@cansurmeli"
