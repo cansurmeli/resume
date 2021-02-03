@@ -75,7 +75,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.education.list]]
         degree = "MSc in Computer Science"
         university = "University of Passau"
-        dates = "2018 - "
+        dates = "2018 - present"
         [[params.education.list]]
         degree = "BSc in Computer Science"
         university = "Yeditepe University"
@@ -137,7 +137,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
-				title = "DUCO - Hybrid Indoor Navigation"
+				title = "DUCO: Hybrid Indoor Navigation"
         meta = "Research Paper"
 				tagline = "This is my bachelor's thesis presented as a research paper at MobiWis 2016 held in Vienna, Austria and published in `Lecture Notes in Computer Science` of Springer. I developed a hybrid solution for the problem of indoor navigation for iOS; mostly relying on pedestrian dead-reckoning(PDR) and some wireless technologies in the aid."
 				metadata_url = "https://link.springer.com/chapter/10.1007%2F978-3-319-44215-0_21"
