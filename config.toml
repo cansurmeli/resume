@@ -55,6 +55,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "C, Bash Scripting, *nix Systems"
         [[params.skills.list.items]]
         details = "SQL, noSQL"
+        [[params.skills.list.items]]
+        details = "Python"
 
         [[params.skills.list]]
         title = "Professional"
@@ -99,7 +101,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         level = "Native"
         [[params.languages.list]]
         name = "English"
-        level = "Multi-lingual"
+        level = "Bilingual"
         [[params.languages.list]]
         name = "German"
         level = "B1/B2"
@@ -110,13 +112,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.interests.list]]
         name = "Fitness"
         [[params.interests.list]]
-        name = "Judo"
+        name = "Judo (green belt)"
         [[params.interests.list]]
         name = "Photography"
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Cycling"
 
     [params.summary]
         enable = true
-				text = "Hi, I'm Can. I'm a computer engineer who is at the end of his master's degree again in the same major. My studies taught me a wide variety of subjects from data structures, algorithms, security, audio/image processing to networks, operating systems, hardware skills and more. During that that, I've worked with languages such as C, Java, Python, bash scripting. Although these days, my main area of concern is Swift and Apple's ecosystem along with *nix administration and Docker. As a developer, I also deeply care about great UI/UX experiences. I'm a highly disciplined person who does not get comfortable with what he accomplishes, learns on his feet, and looks out for different ways to mould what he's already doing to better master it."
+				text = "Hi, I'm Can. I'm a computer engineer who is at the end of his computer science master's degree. My studies taught me a wide variety of subjects from data structures, algorithms, security, audio/image processing to networks, operating systems, hardware skills and more. During that time, I've worked with languages such as C, Java, Python, bash scripting, and Objective-C. Although these days, my main area of focus is Swift and Apple's ecosystem along with *nix administration and Docker. As a developer, I also deeply care about great UI/UX experiences. I'm a highly disciplined person who does not get comfortable with what he accomplishes, learns on his feet, and looks out for different ways to mould what he's already doing to better master it."
 
     [params.experience]
         enable = true
@@ -134,11 +140,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
 				title = "DUCO - Hybrid Indoor Navigation"
         meta = "Research Paper"
 				tagline = "This is my bachelor's thesis presented as a research paper at MobiWis 2016 held in Vienna, Austria and published in `Lecture Notes in Computer Science` of Springer. I developed a hybrid solution for the problem of indoor navigation for iOS; mostly relying on pedestrian dead-reckoning(PDR) and some wireless technologies in the aid."
+				metadata_url = "https://link.springer.com/chapter/10.1007%2F978-3-319-44215-0_21"
+				metadata_text = "Springer"
 
         [[params.projects.list]]
 				title = "Tweet Sentiment Extraction: Extract support phrases for sentiment labels"
         meta = "Master's Project Lecture / Kaggle Challenge"
 				tagline = "This was a group project and also a Kaggle challenge that I was a part of. We were given a dataset of Tweets with their sentiments(positive, negative, or neural) pre-determined. Our task was to find the phrase that caused the respective sentiment in the tweet. For this purpose, we've utilised a state-of-the-art Question & Answering model, namely RoBERTa. As a result, we've achieved a score of 0.71735 in word-level Jaccard score and we were placed within the best 5.93%."
+				metadata_url = "https://www.kaggle.com/c/tweet-sentiment-extraction"
+				metadata_text = "Kaggle Challange"
 
         [[params.projects.list]]
 				title = "Analysing COVID-19: Forecasting with time-series data"
