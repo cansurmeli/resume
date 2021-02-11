@@ -126,34 +126,48 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.experience]
         enable = true
+				
+        [[params.experience.list]]
+				title = "iOS Development"
+        time_frame = "September 2016 - July 2017"
+        company = "Voicity"
+        meta = "Software Development"
+				content = "For 11 months, I was part of a start-up named Voicity of which was in the travel space. We were working towards building a platform for tourists that would allow anyone to make/listen a recording on historical locations; kind of like a virtual tour guide that's always in your pocket. I was solely responsible for developing their iOS platform and foreseeing the development of Android and web backends. However, due to my academic career choices, I had to travel to Germany for my master's degree so that I had to leave this start-up before publishing my work. Currently, any development/product of them does not reflect my own work."
 
         [[params.experience.list]]
-        title = "Internship | TAV Information Technologies"
-        dates = "August 15- September 15"
+        title = "TAV Information Technologies"
+        time_frame = "August 15- September 15"
         company = "TAV Airports"
-				details = "I've interned at TAV IT's mobile development team for a month. I worked on their newly developing iOS application."
+				content = "I've interned at TAV IT's mobile development team for a month. I worked on their newly developing iOS application and parts of their web front end development."
+				link_text = "TAV AirPorts"
+				link_url = "http://www.tavhavalimanlari.com.tr/en-EN"
 
     [params.projects]
         enable = true
 
         [[params.projects.list]]
-				title = "DUCO: Hybrid Indoor Navigation"
-        meta = "Research Paper"
-				tagline = "This is my bachelor's thesis presented as a research paper at MobiWis 2016 held in Vienna, Austria and published in `Lecture Notes in Computer Science` of Springer. I developed a hybrid solution for the problem of indoor navigation for iOS; mostly relying on pedestrian dead-reckoning(PDR) and some wireless technologies in the aid."
-				metadata_url = "https://link.springer.com/chapter/10.1007%2F978-3-319-44215-0_21"
-				metadata_text = "Springer"
+				title = "Analysing COVID-19: Forecasting with time-series data"
+        meta = "MSc. Lecture Project"
+				content = "This was another group project I've contributed to during my master's studies. We took the challenge of analysing COVID-19 time-series data to make various forecasts using various approaches such as ARIMA, ARIMAX, SARIMA and LSTM. Mainly, we had three research questions that we were trying to answer: Are there location specific trends in time-series data in between London and NYC, does weather conditions effect the COVID-19 spikes, and do the policy changes made by governments effect the spread of the virus?"
+				time_frame = "02 November 2020 - 12 February 2021"
 
         [[params.projects.list]]
 				title = "Tweet Sentiment Extraction: Extract support phrases for sentiment labels"
-        meta = "Master's Project Lecture / Kaggle Challenge"
-				tagline = "This was a group project and also a Kaggle challenge that I was a part of. We were given a dataset of Tweets with their sentiments(positive, negative, or neural) pre-determined. Our task was to find the phrase that caused the respective sentiment in the tweet. For this purpose, we've utilised a state-of-the-art Question & Answering model, namely RoBERTa. As a result, we've achieved a score of 0.71735 in word-level Jaccard score and we were placed within the best 5.93%."
-				metadata_url = "https://www.kaggle.com/c/tweet-sentiment-extraction"
-				metadata_text = "Kaggle Challange"
+        meta = "MSc. Lecture Project"
+				content = "This was a group project and also a Kaggle challenge that I was a part of. We were given a dataset of Tweets with their sentiments(positive, negative, or neural) pre-determined. Our task was to find the phrase that caused the respective sentiment in the tweet. For this purpose, we've utilised a state-of-the-art Question & Answering model, namely RoBERTa. As a result, we've achieved a score of 0.71735 in word-level Jaccard score and we were placed within the best 5.93%."
+				link_url = "https://www.kaggle.com/c/tweet-sentiment-extraction"
+				link_text = "Kaggle Challange"
+				time_frame = "20 April 2020 - 24 July 2020"
 
         [[params.projects.list]]
-				title = "Analysing COVID-19: Forecasting with time-series data"
-        meta = "Master's Project Lecture"
-				tagline = "This was another group project I've contributed to during my master's studies. We took the challenge of analysing COVID-19 time-series data to make various forecasts using various approaches such as ARIMA, ARIMAX, SARIMA and LSTM. Mainly, we had three research questions that we were trying to answer: Are there location specific trends in time-series data in between London and NYC, does weather conditions effect the COVID-19 spikes, and do the policy changes made by governments effect the spread of the virus?"
+
+        [[params.projects.list]]
+				title = "DUCO: Hybrid Indoor Navigation"
+        meta = "Research Paper"
+				content = "This is my bachelor's thesis presented as a research paper at MobiWis 2016 held in Vienna, Austria and published in `Lecture Notes in Computer Science` of Springer. I developed a hybrid solution for the problem of indoor navigation for iOS; mostly relying on pedestrian dead-reckoning(PDR) and some wireless technologies in the aid."
+				link_url = "https://link.springer.com/chapter/10.1007%2F978-3-319-44215-0_21"
+				link_text = "Springer"
+				time_frame = "February 2016 - August 2016"
 
     [params.information]
         enable = false 
