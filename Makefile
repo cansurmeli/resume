@@ -2,7 +2,7 @@ copyFLAGS = -ve --progress
 copyFILES = 
 syncFLAGS = -ravz --progress --delete --omit-dir-times
 sshALIAS = vps
-currentDIR = /Users/can/Documents/Development/Web/cv.cansurmeli.com/public/
+currentDIR = /Users/can/Documents/Development/Web/resume.cansurmeli.com/public/
 remoteDIR = /srv/cv.cansurmeli.com/
 
 publish:
