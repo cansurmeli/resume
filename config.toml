@@ -85,6 +85,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.awards.list]]
+        name = "5 Euro Business Wettbewerb"
+        body = "University of Passau"
+        date = "April 2020 - July 2020"
+        [[params.awards.list]]
         name = "Ideation Days"
         body = "University of Passau"
         date = "December 2020"
