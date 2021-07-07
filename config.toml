@@ -42,7 +42,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "Swift/iOS + macOS Frameworks"
+        details = "Swift"
+        [[params.skills.list.items]]
+        details = "Swift UI"
+        [[params.skills.list.items]]
+        details = "iOS + macOS Frameworks"
         [[params.skills.list.items]]
         details = "HTML/CSS"
         [[params.skills.list.items]]
@@ -57,6 +61,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "SQL, noSQL"
         [[params.skills.list.items]]
         details = "Python"
+        [[params.skills.list.items]]
+        details = "Data Analysis + ML"
 
         [[params.skills.list]]
         title = "Professional"
