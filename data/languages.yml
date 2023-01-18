@@ -1,0 +1,12 @@
+languages:
+  enable: true
+
+  content:
+    - name: Turkish
+      level: Native
+
+    - name: English
+      level: Bilingual
+
+    - name: German
+      level: B1/B2

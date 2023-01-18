@@ -1,0 +1,17 @@
+contact:
+  enable: true
+
+  location: "Passau, Germany"
+
+  list:
+    - icon: "fas fa-phone-square"
+      url: "tel:017632429512"
+      text: "0176 / 324 29 512"
+
+    - icon: "fas fa-envelope-square"
+      url: "mailto:cansurmeli@outlook.com"
+      text: "cansurmeli@outlook.com"
+
+    - icon: "fas fa-globe"
+      url: "https://www.cansurmeli.com"
+      text: "www.cansurmeli.com"

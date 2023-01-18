@@ -1,0 +1,11 @@
+education:
+  enable: true
+
+  list:
+    - degree: MSc in Computer Science
+      university: University of Passau
+      dates: 2018 - 2022
+
+    - degree: BSc in Computer Science
+      university: Yeditepe University
+      dates: 2009 - 2016

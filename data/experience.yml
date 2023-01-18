@@ -1,0 +1,22 @@
+experience:
+  enable: true
+
+  list:
+    - title: "Software Developer"
+      time_frame: "July 2022 - Present"
+      company: "Hoffmann Reininger GbR"
+      meta: "Software Development"
+      content: "Currently, I am working at a recruiting & consultation company named Hoffmann Reininger GbR in Passau, Germany where I am responsible for managing their software development needs."
+
+    - title: "iOS Development"
+      time_frame: "September 2016 - July 2017"
+      company: "Voicity"
+      meta: "Software Development"
+      content: "For 11 months, I was part of a start-up named Voicity of which was in the travel space. We were working towards building a platform for tourists that would allow anyone to make/listen a recording on historical locations; kind of like a virtual tour guide that's always in your pocket. I was solely responsible for developing their iOS platform and foreseeing the development of Android and web backends.  However, due to my academic career choices, I had to travel to Germany for my master's degree so that I had to leave this start-up before publishing my work. Currently, any development/product of them does not reflect my own work."
+
+    - title: "Internship (Web/iOS Development)"
+      time_frame: "August 15- September 15"
+      company: "TAV Airports"
+      content: "I've interned at TAV IT's mobile development team for a month. I worked on their newly developing iOS application and parts of their web front end development."
+      link_text: "TAV Information Technologies"
+      link_url: 'http://www.tavhavalimanlari.com.tr/en-EN'

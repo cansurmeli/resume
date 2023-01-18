@@ -1,0 +1,9 @@
+interests:
+  enable: true
+
+  content:
+    - item: Fitness
+    - item: Road Cycling
+    - item: Judo (green belt)
+    - item: Photography
+    - item: Climbing

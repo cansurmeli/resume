@@ -1,0 +1,24 @@
+skills:
+  enable: true
+
+  list:
+    - title: Technical
+      content:
+        - item: Swift
+        - item: Swift UI
+        - item: iOS + macOS Frameworks
+        - item: HTML/CSS
+        - item: 'Git, GitHub, GitLab'
+        - item: CI/CD
+        - item: Docker
+        - item: 'C, Bash Scripting, *nix Systems'
+        - item: 'SQL, noSQL'
+        - item: Python
+        - item: Data Analysis + ML
+
+    - title: Professional
+      content:
+        - item: Effective communication
+        - item: Team player + leader
+        - item: Strong problem solver
+        - item: Good time management

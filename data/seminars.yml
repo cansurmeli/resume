@@ -1,0 +1,15 @@
+seminars:
+  enable: true
+
+  content:
+    - name: 5 Euro Business Wettbewerb
+      body: University of Passau
+      date: April 2021 - July 2021
+
+    - name: Ideation Days
+      body: University of Passau
+      date: December 2020
+
+    - name: Transferable Skills for Working in an IT Environment
+      body: Accenture GmbH
+      date: July 2019
