@@ -1,0 +1,10 @@
+baseURL: 'https://resume.cansurmeli.com/'
+languageCode: en
+title: CV of Can Sürmeli
+theme: hugo-devresume-theme
+
+params:
+  author: CowboySmall
+  description: DevResume - Bootstrap 4 Resume/CV Template For Software Developers
+  primaryColor: '#86BBD8'
+  textPrimaryColor: '#292929'
