@@ -3,7 +3,7 @@ skills:
 
   list:
     - title: Technical
-      content:
+      sublist:
         - item: iOS Development (UIKit, SwiftUI)
         - item: Frontend Development (Hugo)
         - item: Devops Engineer (Docker, CI/CD)
@@ -13,7 +13,7 @@ skills:
         - item: Data Analysis + ML
 
     - title: Programming Languages
-      content:
+      sublist:
         - item: C
         - item: Swift
         - item: HTML5
@@ -23,7 +23,7 @@ skills:
         - item: Bash
 
     - title: Professional
-      content:
+      sublist:
         - item: Effective communication
         - item: Team player + leader
         - item: Strong problem solver

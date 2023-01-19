@@ -1,7 +1,7 @@
 interests:
   enable: true
 
-  content:
+  list:
     - item: Gym Rat
     - item: Semi-Pro Road Cyclist
     - item: Judo (green belt)

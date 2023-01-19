@@ -1,7 +1,7 @@
 seminars:
   enable: true
 
-  content:
+  list:
     - name: 5 Euro Business Wettbewerb
       body: University of Passau
       date: April 2021 - July 2021
