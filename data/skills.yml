@@ -4,17 +4,23 @@ skills:
   list:
     - title: Technical
       content:
-        - item: Swift
-        - item: Swift UI
-        - item: iOS + macOS Frameworks
-        - item: HTML/CSS
-        - item: 'Git, GitHub, GitLab'
-        - item: CI/CD
-        - item: Docker
-        - item: 'C, Bash Scripting, *nix Systems'
-        - item: 'SQL, noSQL'
-        - item: Python
+        - item: iOS Development (UIKit, SwiftUI)
+        - item: Frontend Development (Hugo)
+        - item: Devops Engineer (Docker, CI/CD)
+        - item: Version Control Systems (Git, GitHub, GitLab)
+        - item: "*nix Systems (Fedora, CentOS)"
+        - item: Databases (SQL, noSQL)
         - item: Data Analysis + ML
+
+    - title: Programming Languages
+      content:
+        - item: C
+        - item: Swift
+        - item: HTML5
+        - item: JavaScript
+        - item: CSS / SASS
+        - item: Python
+        - item: Bash
 
     - title: Professional
       content:
