@@ -15,9 +15,30 @@ projects:
       link_text: "Kaggle Challange"
       time_frame: "20 April 2020 - 24 July 2020"
 
+    - title: Vigenère Cipher
+      meta: Open Source
+      content: This is a neat little application I developed with Swift for a master's level security lecture that demonstrates Vigenère Cipher.
+      link_url: https://github.com/cansurmeli/VigenereCipher
+      link_text: GitHub
+      time_frame: January 2018
+
+    - title: Pedestrian Status
+      meta: Open Source
+      content: I later on published the most crucial part of Duco (my bachelor research thesis), i.e. step detection, as an open source project. Written with Swift, it utilises pedestrian dead reckoning to count the steps of the user while moving with his iPhone at hand. It is a proof-of-concept that the local iPhone sensors are highly capable of unserstanding movement.
+      link_url: https://github.com/cansurmeli/pedestrian-status
+      link_text: GitHub
+      time_frame: July 2017
+
     - title: "DUCO: Hybrid Indoor Navigation"
       meta: "Research Paper"
       content: "This is my bachelor's thesis presented as a research paper at MobiWis 2016 held in Vienna, Austria and published in `Lecture Notes in Computer Science` of Springer. I developed a hybrid solution for the problem of indoor navigation for iOS; mostly relying on pedestrian dead-reckoning(PDR) and some wireless technologies in the aid."
       link_url: "https://link.springer.com/chapter/10.1007%2F978-3-319-44215-0_21"
       link_text: "Springer"
       time_frame: "February 2016 - August 2016"
+
+    - title: File Watch
+      meta: Open Source
+      content: This is a concept project I did for a security lecture during my bachelor studies. It demonstrates authentication and confidentiality concepts for files. Written with Objective-C.
+      link_url: https://github.com/cansurmeli/file-watch
+      link_text: GitHub
+      time_frame: July 2015
