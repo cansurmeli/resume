@@ -3,13 +3,13 @@ social:
 
   list:
     - icon: fab fa-github-square
-      url: //github.com/cansurmeli
+      url: https://github.com/cansurmeli
       title: cansurmeli
 
     - icon: fab fa-linkedin
-      url: //linkedin.com/in/can-surmeli-0659581b9/
+      url: https://www.linkedin.com/in/can-s%C3%BCrmeli-0659581b9/
       title: Can Sürmeli
 
     - icon: fab fa-twitter-square
-      url: //twitter.com/cansurmeli
+      url: https://twitter.com/cansurmeli
       title: '@cansurmeli'
