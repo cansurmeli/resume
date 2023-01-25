@@ -22,9 +22,11 @@ skills:
         - item: Python
         - item: Bash
 
-    - title: Professional
+    - title: Soft
       sublist:
         - item: Effective communication
         - item: Team player + leader
         - item: Strong problem solver
         - item: Good time management
+        - item: Technical writing
+        - item: Process improvement
