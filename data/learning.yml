@@ -1,0 +1,6 @@
+learning:
+  enable: true
+
+  list:
+    - item: "Go"
+    - item: "React JS"
