@@ -1,0 +1,18 @@
+projects_open_source:
+  enable: true
+  summary: "Below are the open source projects I strive to contribute and spend time following along in my free time."
+
+  list:
+    - title: "Nginx Proxy"
+      meta: "Automated Nginx Proxy for Docker"
+      content: "This is a neat little Docker project that helps in using Nginx as a reverse proxy on your server. It also handles the creation and management of SSL certificates when enabled. I really enjoy having this project as it is simple yet powerful."
+      link_url: "https://github.com/nginx-proxy/nginx-proxy"
+      link_text: "GitHub Project"
+      time_frame: ""
+
+    - title: "Hugo"
+      meta: "Framework for building websites"
+      content: "It would not be an exaggeration if I said I love Hugo. It is a static site generator written with Go. Sure, it is targeted more towards developers but I believe it solves a lot of the problems the web and especially other dynamic site systems have. Namely speed, efficiency, and complexity."
+      link_url: "https://github.com/gohugoio/hugo"
+      link_text: "GitHub Project"
+      time_frame: ""
