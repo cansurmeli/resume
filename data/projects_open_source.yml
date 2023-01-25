@@ -1,18 +1,25 @@
 projects_open_source:
   enable: true
-  summary: "Below are the open source projects I strive to contribute and spend time following along in my free time."
+  summary: "Below are some of the popular/useful open source projects I developed myself."
 
   list:
-    - title: "Nginx Proxy"
-      meta: "Automated Nginx Proxy for Docker"
-      content: "This is a neat little Docker project that helps in using Nginx as a reverse proxy on your server. It also handles the creation and management of SSL certificates when enabled. I really enjoy having this project as it is simple yet powerful."
-      link_url: "https://github.com/nginx-proxy/nginx-proxy"
-      link_text: "GitHub Project"
-      time_frame: ""
+    - title: Vigenère Cipher
+      meta: Encryption Concept on iOS
+      content: This is a neat little application I developed with Swift for a master's level security lecture on short notice that demonstrates Vigenère Cipher.
+      link_url: https://github.com/cansurmeli/VigenereCipher
+      link_text: GitHub
+      time_frame: January 2018
 
-    - title: "Hugo"
-      meta: "Framework for building websites"
-      content: "It would not be an exaggeration if I said I love Hugo. It is a static site generator written with Go. Sure, it is targeted more towards developers but I believe it solves a lot of the problems the web and especially other dynamic site systems have. Namely speed, efficiency, and complexity."
-      link_url: "https://github.com/gohugoio/hugo"
-      link_text: "GitHub Project"
-      time_frame: ""
+    - title: Pedestrian Status
+      meta: Real-Time Step Detection on iOS
+      content: I later on published the most crucial part of Duco (my bachelor research thesis), i.e. step detection, as an open source project. Written with Swift, it utilises pedestrian dead reckoning to count the steps of the user while moving with his iPhone at hand. It is a proof-of-concept that the local iPhone sensors are highly capable of understanding movement.
+      link_url: https://github.com/cansurmeli/pedestrian-status
+      link_text: GitHub
+      time_frame: July 2017
+
+    - title: File Watch
+      meta: Authentication/Confidentiality Concepts on macOS
+      content: This is a concept project I did for a security lecture during my bachelor studies. It demonstrates authentication and confidentiality concepts for files on a macOS machine. Written with Objective-C.
+      link_url: https://github.com/cansurmeli/file-watch
+      link_text: GitHub
+      time_frame: July 2015
