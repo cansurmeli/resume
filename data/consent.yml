@@ -1,5 +1,10 @@
 items:
+  - title: Font Awesome (functional)
+    description: This is merely a JS library for providing icons.
+    is_functional: true
+    script_file: js/font_awesome.js
+
   - title: Matomo
-    description: This code gives us insight into the number of people that visit our website, where they are from and what they are clicking on. We follow the guidelines of the Dutch Government, which describe how to use Google Analytics without requiring explicit consent.
+    description: This code gives me insight into the number of people that visit this website, where they are from and what they are clicking on. Data collected here isn't transferred to anyone else.
     is_functional: false
     script_file: js/matomo.js
